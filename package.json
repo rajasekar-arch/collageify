@@ -1,0 +1,44 @@
+{
+  "name": "collageify",
+  "version": "1.0.0",
+  "description": "accepts images, creates a collage, and downloads it as a file, get the dominant colors in the uploaded image",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "collage",
+    "canvas",
+    "image",
+    "photo",
+    "editor",
+    "color-extraction",
+    "dominant-colors",
+    "typescript",
+    "image-processing",
+    "image-composer",
+    "npm-package",
+    "color-extractor"
+  ],
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasekar-arch/collageify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rajasekar-arch/collageify/issues"
+  },
+  "homepage": "https://github.com/rajasekar-arch/collageify#readme"
+}
